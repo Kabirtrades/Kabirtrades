@@ -5,85 +5,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Trading Strategy That Wins</title>
 
-  <!-- Google Fonts: Open Sans -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Google Fonts: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <style>
     body {
-      font-family: 'Open Sans', sans-serif;
-      background: #f9f9f9;
+      font-family: 'Roboto', sans-serif;
+      background: #f9fafb;
       margin: 0;
       padding: 0;
-      color: #222;
+      color: #111827;
     }
+
     .hero {
-      background: #111;
-      color: white;
+      background: #ffffff;
       text-align: center;
-      padding: 50px 20px;
+      padding: 60px 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin: 40px auto;
+      max-width: 700px;
+      border-radius: 10px;
     }
+
     .hero h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+      font-size: 32px;
+      margin-bottom: 15px;
+      color: #111827;
     }
+
     .hero p {
-      font-size: 20px;
+      font-size: 18px;
       margin-bottom: 25px;
+      color: #374151;
     }
+
     .btn {
-      background: #1e40af; /* cobalt blue button */
+      background: #1e40af; /* cobalt blue */
       color: #fff;
-      padding: 15px 30px;
+      padding: 15px 35px;
       font-size: 18px;
       text-decoration: none;
       border-radius: 8px;
-      font-weight: bold;
+      font-weight: 500;
+      transition: background 0.3s;
+      display: inline-block;
     }
+
+    .btn:hover {
+      background: #3746c4;
+    }
+
     .section {
       padding: 40px 20px;
       max-width: 900px;
-      margin: auto;
+      margin: 40px auto;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
+
     .section h2 {
       font-size: 28px;
       margin-bottom: 20px;
       text-align: center;
+      color: #111827;
     }
+
     .features ul {
       list-style: none;
       padding: 0;
     }
+
     .features li {
-      background: #fff;
+      background: #f3f4f6;
       padding: 15px;
       margin: 10px 0;
       border-radius: 6px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+
     .testimonials, .faq {
-      background: #fff;
-      border-radius: 6px;
       padding: 30px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      background: #f3f4f6;
+      margin-bottom: 30px;
     }
+
     .testimonial {
       margin-bottom: 20px;
-      border-left: 4px solid #1e40af; /* match cobalt theme */
+      border-left: 4px solid #1e40af;
       padding-left: 15px;
     }
+
+    .highlight {
+      color: #1e40af; 
+      font-weight: bold;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
-      background: #111;
+      background: #111827;
       color: white;
     }
-    .highlight {
-      color: #1e40af; /* cobalt highlight */
-      font-weight: bold;
-    }
+
     @media (max-width: 600px) {
       .hero h1 {
-        font-size: 28px;
+        font-size: 26px;
       }
       .hero p {
         font-size: 16px;
@@ -124,7 +151,7 @@
   <div class="section testimonials">
     <h2>What Students Are Saying</h2>
     <div class="testimonial">
-      <p><strong>Rajeev S.</strong>: "I made way more profit on first trade than the fee i paid, amazing strategy, totally worth it."</p>
+      <p><strong>Rajeev S.</strong>: "I made way more profit on first trade than the fee I paid, amazing strategy, totally worth it."</p>
     </div>
     <div class="testimonial">
       <p><strong>Preeti K.</strong>: "Trading finally makes sense. 1 trade a day is all I needed!"</p>
