@@ -1,12 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Thank You</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You - Purchase Confirmed</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:#f0fdf4; color:#065f46; display:grid; place-items:center; min-height:100vh; padding:20px; }
+    .card { background:#ffffff; padding:40px; border-radius:10px; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    h1 { font-size:32px; margin-bottom:15px; }
+    p { font-size:18px; }
+  </style>
+  <!-- Meta Pixel Purchase Event -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'PIXEL_ID_HERE');
+    fbq('track', 'PageView');
+    fbq('track', 'Purchase', { value: 999.00, currency: 'INR' });
+  </script>
+  -->
 </head>
 <body>
-  <h1>Thank You for Your Purchase!</h1>
-  <p>Payment confirmed. Meta Pixel event will fire here.</p>
+  <div class="card">
+    <h1>🎉 Thank You!</h1>
+    <p>Your purchase of ₹999 course is confirmed.</p>
+    <p>Check your email for access details.</p>
+  </div>
 </body>
 </html>
